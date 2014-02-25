@@ -1,0 +1,198 @@
+
+body {
+  text-align: center;
+  background: url("../images/brick-wall-bw.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.test_border {
+  min-height: 50px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+#profile_photo{
+  width: 100%;
+  max-height: 200px;
+}
+
+#headline {
+  text-align: left;
+}
+#michaelmuse {
+  font-size: 90px;
+  font-weight: bold;
+}
+#mjm_title {
+  font-size: 30px;
+}
+
+#sidebar {
+  text-align: left;
+  font-size: 16px;
+  background: white;
+  height: 924px;
+}
+.extra {
+  font-size: 14px;
+}
+
+#maincontent {
+  background: white;
+  padding: 20px;
+  height: 924px;
+}
+
+#lrlogo {
+  width: 150px;
+  margin-left: 20px;
+}
+
+
+#vertdivider {
+  height: 10px;
+}
+
+.social{
+  text-decoration: none;
+  padding: 5px;
+  margin: 30px;
+  opacity: .5;
+}
+.social:hover {
+  opacity: 1;
+}
+
+#twitter {
+  display: none;
+}
+
+.twitter-timeline {
+  margin: 70px;
+  width: 85%;
+}
+
+.mjmphoto {
+
+}
+
+
+/* KILL BELOW */
+/*h1 {
+  font-size: 75px;
+  margin: 5px;
+}
+h2 {
+  font-size: 35px;
+  margin: 15px;
+}
+p {
+  width: 1000px;
+  font-size: 20px;
+  margin: 5px;
+}
+.about {
+  padding: 20px;
+  margin: 20px auto;
+  height: auto;
+  width: 1000px;
+  background: white;
+  opacity: .9;
+}
+.profile {
+  width: 1200px;
+  text-align: left;
+  margin: 0 auto;
+}
+#profilephoto {
+  float: left;
+  height: 375px;
+  width: 375px;
+  border: 5px solid black;
+  margin: 10px;
+}
+.lrlogo {
+  width: 100px;
+}
+.moreinfo {
+  clear: both;
+  float: left;
+  margin: 10px auto;
+  padding: 10px;
+  width: 75%px;
+}
+.social{
+  text-decoration: none;
+  padding: 5px;
+  opacity: .5;
+}
+.social:hover {
+  opacity: 1;
+}
+.twitter-timeline {
+  margin: 20px;
+  width: 600px;
+}
+#twitter {
+  display: none;
+}
+.call {
+  display: block;
+  margin: 10px auto;
+}
+/*This section is for mobile*/
+
+/*
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 85px;
+  }
+  h2 {
+    font-size: 55px;
+  }
+  p {
+    font-size: 45px;
+    width: auto;
+  }
+  .profile {
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #profilephoto {
+    float: none;
+    height: 475px;
+    width: 475px;
+    border: 5px solid black;
+    margin: 5px;
+  }
+  .lrlogo {
+    width: 200px;
+  }
+  .moreinfo {
+    float: none;
+    margin: 5px auto;
+    padding: 5px;
+  }
+  .twitter-timeline {
+    display: none;
+  }
+  #twitter {
+    display: inline;
+  }
+  .about {
+    padding: 10px;
+    margin: 20px auto;
+    height: auto;
+    width: auto;
+    background: white;
+    opacity: .9;
+  }
+  .call {
+    display: none;
+  }
+  .extra {
+    display: none;
+  }
+}*/
