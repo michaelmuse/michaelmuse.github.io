@@ -6,6 +6,7 @@
   <link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="stylesheets/styles.css">
   <link rel="stylesheet" href="stylesheets/bootstrap.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 </head>
 <body>
 
@@ -40,7 +41,7 @@
     <div class="spacerdiv col-md-1"></div>
 
     <div id="maincontent" class="col-md-9 test_border">
-      <ul class="nav nav-tabs nav-justified">
+      <ul class="nav nav-tabs nav-justified" id="navigationpane">
         <li id="nav-contact" class="active tab-pane"><a href="#">My Info</a></li>
         <li id="nav-resume" class="tab-pane"><a href="#">Career</a></li>
         <li id="nav-code" class="tab-pane"><a href="#">Code</a></li>
@@ -57,7 +58,7 @@
   </div>
 
   </div>
- 
+  
 
 <!-- Templates section -->
   <!-- Contact template -->
@@ -89,18 +90,47 @@
   <!-- Career template-->
   <script type="text/template" id="career-templ">
   </script>
-  <!-- END Code template-->
+  <!-- END Career template-->
 
   <!-- Code template-->
   <script type="text/template" id="code-templ">
-    <h1>hello world</h1>
-    <h2>other</h2>
+    <div class="projects test_border" >
+      <img class="project-image" src="http://canons.sog.unc.edu/wp-content/uploads/2014/01/construction-plans-and-hat.jpg" alt="">
+      <h1 class="project-text">FINAL PROJECT</h1>
+      <p class="project-text2">Linkpuller does BLAH BLAH BLAH</p>
+    </div>
+    <hr>
+    <div class="projects test_border" >
+      <img class="project-image" src="http://content.screencast.com/users/MichaelMuse/folders/Jing/media/1ceb364f-fe04-4c64-af92-69b32a48246c/00000030.png" alt="">
+      <a href="http://linkpuller.herokuapp.com/" target="_blank"><i class="fa fa-3x fa-external-link-square projicons extlink"></i></a>
+      <a href="https://github.com/michaelmuse/linkpuller" target="_blank"><i class="fa fa-3x fa-github-square projicons gitlink"></i></a>
+      <h1 class="project-text">Linkpuller</h1>
+      <p class="project-text2">This app pulls the links out of twitter handles, categorizes them, and allows you to bookmark a reading list from them.</p>
+    </div>
+    <hr>
+    <div class="projects test_border" >
+      <img class="project-image" src="http://content.screencast.com/users/MichaelMuse/folders/Jing/media/a9307005-663f-4184-8c4f-99a66d57ae8b/00000031.png" alt="">
+      <a href="http://twendy.herokuapp.com/" target="_blank"><i class="fa fa-3x fa-external-link-square projicons extlink"></i></a>
+      <a href="https://github.com/michaelmuse/twendy" target="_blank"><i class="fa fa-3x fa-github-square projicons gitlink"></i></a>
+      <h1 class="project-text">Trend Trails</h1>
+      <p class="project-text2">This app visualizes the decay rate of twitter trends globally</p>
+    </div>
+    <hr>
+    <div class="projects test_border" >
+      <img class="project-image" src="http://content.screencast.com/users/MichaelMuse/folders/Jing/media/6dcdd8dc-847b-48f6-baba-ddffca117347/00000032.png" alt="">
+      <a href="http://ajkim.github.io/d3_hackathon/" target="_blank"><i class="fa fa-3x fa-external-link-square projicons extlink"></i></a>
+      <a href="https://github.com/ajkim/d3_hackathon" target="_blank"><i class="fa fa-3x fa-github-square projicons gitlink"></i></a>
+      <h1 class="project-text">NYC Tech Visualizer</h1>
+      <p class="project-text2">This app visualizes NYC tech companies by size (funding) and category (refinable)</p>
+    </div>
   </script>
   <!-- END Code template-->
 
   <!-- Photography template-->
   <script type="text/template" id="photography-templ">
+    <br>
     <p>I am a causal photographer - I really like taking pictures in low light, at concerts, and of nature scenes.</p>
+    <br>
     <div id="this-carousel-id" class="carousel slide">
       <div class="carousel-inner">
         <div class="item active mjmphoto">
@@ -122,9 +152,9 @@
           </div>
         </div>
         <div class="item mjmphoto">
-          <img src="http://placehold.it/1200x480" alt="" />
+          <img src="images/mvy.jpg" alt="" />
           <div class="carousel-caption">
-            <p>Caption FOUR</p>
+            <p>Lobsterville Beach Sunset</p>
           </div>
         </div>
       </div>
