@@ -9,8 +9,18 @@ $(function(){
     e.preventDefault();
     $('.tab-pane').removeClass('active');
     $('#nav-contact').addClass('active');
-    $('#subcontent').empty()
+    $('#subcontent')//.hide('slide', {direction: 'down'}, 400)
+                    .empty()
                     .append($('#contact-templ').html());
+                    // .show('slide', {direction: 'down'}, 400);
+  });
+
+  $('#nav-career a').click(function (e) {
+    e.preventDefault();
+    $('.tab-pane').removeClass('active');
+    $('#nav-code').addClass('active');
+    $('#subcontent').empty()
+                    .append($('#career-templ').html());
   });
 
   $('#nav-code a').click(function (e) {
