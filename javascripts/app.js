@@ -18,7 +18,7 @@ $(function(){
   $('#nav-career a').click(function (e) {
     e.preventDefault();
     $('.tab-pane').removeClass('active');
-    $('#nav-code').addClass('active');
+    $('#nav-career').addClass('active');
     $('#subcontent').empty()
                     .append($('#career-templ').html());
   });
